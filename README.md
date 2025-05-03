@@ -23,7 +23,7 @@ This module sets up a basic AWS networking environment:
 
 hcl
 module "vpc_setup" {
-  source = "github.com/<your-github-username>/terraform-aws-vpc-setup"
+  source = "github.com/yashbache09/terraform-aws-vpc-basic1"
 
   region         = "ap-south-1"
   vpc_cidr       = "10.0.0.0/16"
